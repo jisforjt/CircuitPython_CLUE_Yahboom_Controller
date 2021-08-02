@@ -1,6 +1,6 @@
 # CircuitPython CLUE Yahboom jisforjt_controller_test.py
 
-from jisforjt_controller import gamepad
+from jisforjt_game_pad import gamepad
 from adafruit_clue import clue
 import time
 
