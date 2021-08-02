@@ -3,7 +3,7 @@ This is a higher-level library to allow Adafruit's [CLUE](https://www.adafruit.c
 
 ## Dependencies
 This library depends on:
-* [Adafruit CircuitPython](https://github.com/adafruit/circuitpython) v.6.3.1
+* [Adafruit CircuitPython](https://github.com/adafruit/circuitpython) v.6.3.0
 
 The test example also depends on:
 * [Adafruit_CLUE](https://github.com/adafruit/Adafruit_CircuitPython_CLUE) v.3.0.0
