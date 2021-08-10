@@ -75,8 +75,8 @@ class Game_Pad:
         self._joystick_y = AnalogIn(board.P1)
         self._joystick_x = AnalogIn(board.P2)
         
-        # Define Buttons
-        # Joystick Press
+        # Define buttons
+        # Joystick press
         self._joystick_press = DigitalInOut(board.D8)
         self._joystick_press.direction = Direction.INPUT
         self._joystick_press.pull = Pull.UP
