@@ -1,6 +1,44 @@
-# jisforjt_egg_quest.py
+# CircuitPython Clue Yahboom Game Pad Egg Quest jisforjt_egg_quest.py
+# Last Updated Aug. 10, 2021
 # Author: James Tobin
 
+######################################################
+#   MIT License
+######################################################
+'''
+Copyright (c) 2020 James Tobin
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to deal in the Software
+without restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to the following
+conditions:
+The above copyright notice and this permission notice shall be included in all copies
+or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+'''
+
+######################################################
+#   Cutebot Information
+######################################################
+'''
+jisforjt_egg_quest.py:
+v1
+    Brave adventurer, you are quested to collect as many eggs as
+    you cane from the four realms. Be quick because the gate will
+    close soon and once it is you will be trapped.
+
+    This game was created to demonstrate the functionality of the
+    Yahboom game pad with the Adafurit CLUE.
+
+    The only function that was not demonstrated was the 
+    buzzer/rumbler.
+'''
 
 ######################################################
 #   Import
@@ -12,7 +50,7 @@ import displayio
 import adafruit_imageload
 import terminalio
 from adafruit_display_text import label
-from jisforjt_game_pad import gamepad
+from jisforjt_yahboom_game_pad import gamepad
 from adafruit_clue import clue
 
 
