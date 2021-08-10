@@ -6,7 +6,15 @@ This library depends on:
 * [Adafruit CircuitPython](https://github.com/adafruit/circuitpython) v.6.3.0
 
 The test example also depends on:
-* [Adafruit_CLUE](https://github.com/adafruit/Adafruit_CircuitPython_CLUE) v.3.0.0
+* [Adafruit_CLUE*](https://github.com/adafruit/Adafruit_CircuitPython_CLUE) v.3.0.0
+
+The Egg Quest game example also depends on:
+* [Adafruit_CLUE*](https://github.com/adafruit/Adafruit_CircuitPython_CLUE) v.3.0.0
+* [Adafruit Imangeload*](https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad) v.1.15.1
+* [Adafruit Display Text*](https://github.com/adafruit/Adafruit_CircuitPython_Display_Text) v.2.20.0
+
+*All repositories are available in the Circuitpython Bundle v.6.X
+
 
 ## Instalations
 Follow Adafruit's [CLUE Overview](https://learn.adafruit.com/adafruit-clue) instructions under _CircuitPython on CLUE_. During the installation process, you will download the latest _library bundle_ and transfer several libraries to the CLUE. Transfer the dependencies listed above to your _lib folder_.
