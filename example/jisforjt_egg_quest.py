@@ -168,12 +168,13 @@ while True:
             # Set player1 location
             player1.x = int(max_width/2)
             player1.y = int(max_height/2)
-            player1[0] = 0
+
+            player1[0] = 0      # Set player1 sprite
 
             right_face = True       # Set which way player1 looks
             frame_step = False      # Set which step player1 is taking
 
-            random.seed(int((gamepad._joystick_x.value + gamepad._joystick_y.value) * 52))      # Use joystick voltages to seed the random number generator
+            random.seed(int((gamepad.y_voltage + (1 + gamepad.x_voltage)) * 52))      # Use joystick voltages to seed the random number generator
 
             total_score = 0
 
@@ -185,6 +186,8 @@ while True:
             curr_realm = 0      # Set starting realm
             eggs.x, eggs.y = egg_carton[curr_realm]      # Set current realm's egg location
             
+            eggs[0] = curr_realm    # Set egg sprite
+
             # Count Down
             print("3...")
             time.sleep(0.5)
@@ -216,7 +219,7 @@ while True:
         elif gamepad.y < 0.46:
             delta_y = -2
 
-        move(delta_x, delta_y)  # Move player1 by delta_x and delta_y
+        move(delta_x, delta_y)      # Move player1 by delta_x and delta_y
         collect_egg()        # Check to see if the current realm's egg has been collected
 
         # Check to see if the player wants to change realms.
