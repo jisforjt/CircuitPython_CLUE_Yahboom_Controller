@@ -13,17 +13,17 @@ The Egg Quest game example also depends on:
 * [Adafruit Imangeload**](https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad) v.1.15.1
 * [Adafruit Display Text**](https://github.com/adafruit/Adafruit_CircuitPython_Display_Text) v.2.20.0
 
-**Repositories is available in the Circuitpython Bundle v.6.X
+**Repository is available in the Circuitpython Bundle v.6.X
 
 
 ## Instalations
-Follow Adafruit's [CLUE Overview](https://learn.adafruit.com/adafruit-clue) instructions under _CircuitPython on CLUE_. During the installation process, you will download the latest _library bundle_ and transfer several libraries to the CLUE. Transfer the dependencies listed above to your _lib folder_.
-Download this repository and copy _jisforjt_cutebot_clue.mpy_ on to your CIRCUITPY drive. The _.mpy_ version of the files uses a fraction of the memory and is the reccommended version.
+Follow Adafruit's [CLUE Overview](https://learn.adafruit.com/adafruit-clue) instructions under _CircuitPython on CLUE_. During the installation process, you will download the latest _library bundle_ and transfer several libraries to the CLUE. Also transfer the dependencies listed above to your _lib folder_.
+Download this repository and copy _jisforjt_yahboom_game_pad.py_ on to your CIRCUITPY drive. 
 
 ## Usage
 You can create a new main.py file and use:
 ```python
-from jisforjt_controller import controller
+from jisforjt_yahboom_game_pad import gamepad
 ```
 
 ## License
