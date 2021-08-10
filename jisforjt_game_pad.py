@@ -40,8 +40,8 @@ v1
 """
 Pins
     P0  -Digital    Game Pad - Buzzer and Rumbler
-    P1  -Analog     Game Pad - Joystick: X
-    P2  -Analog     Game Pad - Joystick: Y
+    P1  -Analog     Game Pad - Joystick: Y
+    P2  -Analog     Game Pad - Joystick: X
     P5  -Digital    Clue - Button A
     P8  -Digital    Game Pad - Joystick: Press
     P11 -Digital    Clue - Button B
@@ -72,8 +72,8 @@ class Game_Pad:
         self._buzzer_rumbler.value = True
 
         # Define joystick pins
-        self._joystick_x = AnalogIn(board.P1)
-        self._joystick_y = AnalogIn(board.P2)
+        self._joystick_y = AnalogIn(board.P1)
+        self._joystick_x = AnalogIn(board.P2)
         
         # Define Buttons
         # Joystick Press
@@ -125,16 +125,16 @@ class Game_Pad:
     #   Sensors
     ######################################################
     @property
-    def x_Voltage(self):    # Joystick X axis - Voltage
-        return (self._joystick_x.value * 3.3) / 65536
+    def x_voltage(self):    # Joystick X axis - Voltage
+        return 1.0 - ((self._joystick_x.value * 3.3) / 65536)
 
     @property
-    def y_Voltage(self):    # Joystick Y axis - Voltage
+    def y_voltage(self):    # Joystick Y axis - Voltage
         return (self._joystick_y.value * 3.3) / 65536
 
     @property
     def x(self):    # Joystick X axis - Value from 0.0 to 1.0
-        return self._joystick_x.value / 65536
+        return 1.0 - (self._joystick_x.value / 65536)
 
     @property
     def y(self):    # Joystick Y axis - Value from 0.0 to 1.0
