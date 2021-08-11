@@ -30,7 +30,7 @@ OR OTHER DEALINGS IN THE SOFTWARE.
 jisforjt_Game_Pad.py:
 v1
     This is a higher-level library to allow Adafruit's CLUE and Yahboom's micro:bit 
-    Game Pad to communicate while maintaining all the functionality of the CLUE, 
+    gamepad to communicate while maintaining all the functionality of the CLUE, 
     except for touch features.
 '''
 
