@@ -1,4 +1,5 @@
 # CircuitPython_CLUE_Yahboom_Gamepad
+![Image of the CLUE and Yahboom gamepad](https://github.com/jisforjt/CircuitPython_CLUE_Yahboom_Gamepad/blob/main/images/CLUE_and_Yahboom_Gamepad.png)
 This is a higher-level library to allow Adafruit's [CLUE](https://www.adafruit.com/product/4500) and Yahboom's Micro:bit Compact [Gamepad](http://www.yahboom.net/study/SGH) to communicate while maintaining all the functionality of the CLUE, except for touch features.
 
 ## Dependencies
