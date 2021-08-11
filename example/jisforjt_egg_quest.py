@@ -1,4 +1,4 @@
-# CircuitPython Clue Yahboom Game Pad Egg Quest jisforjt_egg_quest.py
+# CircuitPython Clue Yahboom Gamepad Egg Quest jisforjt_egg_quest.py
 # Last Updated Aug. 10, 2021
 # Author: James Tobin
 
@@ -34,7 +34,7 @@ v1
     close soon and once it is you will be trapped.
 
     This game was created to demonstrate the functionality of the
-    Yahboom game pad with the Adafurit CLUE.
+    Yahboom gamepad with the Adafurit CLUE.
 
     The only function that was not demonstrated was the 
     buzzer/rumbler.
@@ -50,7 +50,7 @@ import displayio
 import adafruit_imageload
 import terminalio
 from adafruit_display_text import label
-from jisforjt_yahboom_game_pad import gamepad
+from jisforjt_yahboom_gamepad import gamepad
 from adafruit_clue import clue
 
 
