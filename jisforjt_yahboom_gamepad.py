@@ -27,7 +27,7 @@ OR OTHER DEALINGS IN THE SOFTWARE.
 #   Cutebot Information
 ######################################################
 '''
-jisforjt_Game_Pad.py:
+jisforjt_Gamepad.py:
 v1
     This is a higher-level library to allow Adafruit's CLUE and Yahboom's micro:bit 
     gamepad to communicate while maintaining all the functionality of the CLUE, 
@@ -39,16 +39,16 @@ v1
 ######################################################
 """
 Pins
-    P0  -Digital    Game Pad - Buzzer and Rumbler
-    P1  -Analog     Game Pad - Joystick: Y
-    P2  -Analog     Game Pad - Joystick: X
+    P0  -Digital    Gamepad - Buzzer and Rumbler
+    P1  -Analog     Gamepad - Joystick: Y
+    P2  -Analog     Gamepad - Joystick: X
     P5  -Digital    Clue - Button A
-    P8  -Digital    Game Pad - Joystick: Press
+    P8  -Digital    Gamepad - Joystick: Press
     P11 -Digital    Clue - Button B
-    P13 -Digital    Game Pad - Button B1
-    P14 -Digital    Game Pad - Button B2
-    P15 -Digital    Game Pad - Button B3
-    P16 -Digital    Game Pad - Button B4
+    P13 -Digital    Gamepad - Button B1
+    P14 -Digital    Gamepad - Button B2
+    P15 -Digital    Gamepad - Button B3
+    P16 -Digital    Gamepad - Button B4
     P17 -Digital    Clue - LED
     P18 -Digital    Clue - Neopixel
     P43 -Digital    Clue - White LEDs
@@ -63,7 +63,7 @@ import board
 from digitalio import DigitalInOut, Direction, Pull
 from analogio import AnalogIn
 
-class Game_Pad:
+class Gamepad:
 
     def __init__(self):
         # Define sound and rumble
@@ -104,7 +104,7 @@ class Game_Pad:
     def buzz(self, duration):
         '''
         Buzzes for a set duration. This only works if you have the physical 
-        game pad switch set to software mode.
+        gamepad switch set to software mode.
 
         duration (float) = the number of seconds you want to play the tone
 
@@ -160,4 +160,4 @@ class Game_Pad:
     def b4(self):   # B4 Button - Value (True/False)
         return not self._b4.value
 
-gamepad = Game_Pad()
+gamepad = Gamepad()
