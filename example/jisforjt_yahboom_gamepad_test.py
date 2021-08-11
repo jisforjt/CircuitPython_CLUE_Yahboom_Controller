@@ -28,7 +28,7 @@ while True:
     ######################################################
     #   Buzzer
     ######################################################
-    # This only works if you have the physical gamepad 
+    # This only works if you have the physical game pad 
     # switch set to software mode.
     if gamepad.press == True:
         gamepad.buzz(0.5)
