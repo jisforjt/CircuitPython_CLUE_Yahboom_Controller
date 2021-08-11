@@ -23,7 +23,7 @@ Download this repository and copy _jisforjt_yahboom_gamepad.py_ on to your CIRCU
 ## Usage
 You can create a new main.py file and use:
 ```python
-from jisforjt_yahboom_game_pad import gamepad
+from jisforjt_yahboom_gamepad import gamepad
 ```
 
 ## License
