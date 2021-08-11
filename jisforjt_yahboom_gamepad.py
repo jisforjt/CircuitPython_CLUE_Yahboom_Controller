@@ -1,4 +1,4 @@
-# CircuitPython Clue Yahboom Game Pad jisforjt_yahboom_game_pad.py
+# CircuitPython Clue Yahboom Gamepad jisforjt_yahboom_gamepad.py
 # Last Updated Aug. 10, 2021
 # Author(s): James Tobin
 
