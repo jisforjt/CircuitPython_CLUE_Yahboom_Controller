@@ -1,5 +1,5 @@
-# CircuitPython_CLUE_Yahboom_Game_Pad
-This is a higher-level library to allow Adafruit's [CLUE](https://www.adafruit.com/product/4500) and Yahboom's Micro:bit Compact [Game Pad](http://www.yahboom.net/study/SGH) to communicate while maintaining all the functionality of the CLUE, except for touch features.
+# CircuitPython_CLUE_Yahboom_Gamepad
+This is a higher-level library to allow Adafruit's [CLUE](https://www.adafruit.com/product/4500) and Yahboom's Micro:bit Compact [Gamepad](http://www.yahboom.net/study/SGH) to communicate while maintaining all the functionality of the CLUE, except for touch features.
 
 ## Dependencies
 This library depends on:
@@ -18,7 +18,7 @@ The Egg Quest game example also depends on:
 
 ## Instalations
 Follow Adafruit's [CLUE Overview](https://learn.adafruit.com/adafruit-clue) instructions under _CircuitPython on CLUE_. During the installation process, you will download the latest _library bundle_ and transfer several libraries to the CLUE. Also transfer the dependencies listed above to your _lib folder_.
-Download this repository and copy _jisforjt_yahboom_game_pad.py_ on to your CIRCUITPY drive. 
+Download this repository and copy _jisforjt_yahboom_gamepad.py_ on to your CIRCUITPY drive. 
 
 ## Usage
 You can create a new main.py file and use:
