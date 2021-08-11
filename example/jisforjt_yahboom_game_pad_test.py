@@ -1,8 +1,8 @@
-# CircuitPython CLUE Yahboom Game Pad jisforjt_yahboom_game_pad_test.py
+# CircuitPython CLUE Yahboom Gamepad jisforjt_yahboom_gamepad_test.py
 # Last Updated Aug. 10, 2021
 # Author(s): James Tobin
 
-from jisforjt_yahboom_game_pad import gamepad
+from jisforjt_yahboom_gamepad import gamepad
 from adafruit_clue import clue
 import time
 
@@ -28,7 +28,7 @@ while True:
     ######################################################
     #   Buzzer
     ######################################################
-    # This only works if you have the physical game pad 
+    # This only works if you have the physical gamepad 
     # switch set to software mode.
     if gamepad.press == True:
         gamepad.buzz(0.5)
